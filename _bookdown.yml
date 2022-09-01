@@ -1,0 +1,18 @@
+book_filename: "fertility"
+delete_merged_file: true
+#rmd_subdir: "mainmatter"
+rmd_files:
+  - index.Rmd
+  - ch1-introduction.Rmd
+  - ch2-review.Rmd
+  - ch3-methods.Rmd
+  - ch4-results.Rmd
+  - ch5-discussions.Rmd
+  - ch6-conclusions.Rmd
+  - ch7-references.Rmd
+  - appendics.Rmd
+output_dir: "docs"
+language:
+  ui:
+    chapter_name: "Chapter "
+new_session: "yes"
